@@ -1,8 +1,8 @@
 {
   "name": "web-automation-testing-kit",
-  "version": "1.0.0",
-  "description": "QA Automation Testing",
-  "author": "Manh Pham <manhpt2@fsoft.com.vn>",
+  "version": "0.1.0",
+  "description": "Web automation testing and measuring kit",
+  "author": "Manh Pham <manhhailua@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/manhhailua/web-automation-testing-kit",
   "repository": {
