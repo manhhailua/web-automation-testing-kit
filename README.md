@@ -16,6 +16,8 @@ Chai <https://chaijs.com>
 
 Sinon <https://sinonjs.org>
 
+## Documentation
+The installation instruction below show you how to get this project up and testing. For details, follow [documentation](./docs/README.md).
 
 ## Installation
 
