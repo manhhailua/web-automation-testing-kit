@@ -2,13 +2,10 @@
  * Created by manhpt on 5/25/17.
  */
 
-import chai, { expect } from 'chai';
 import { ORIGIN } from '../config';
 import { EXPECTED_PAGE_LOAD_TIME, REGEX_ERROR_STATUS } from '../constants';
-import { measureNetwork } from '../helpers/network';
-import Home from '../pages/Home';
-
-chai.should();
+import { measureNetwork } from '../../src/helpers/network';
+import Home from '../../src/pages/Home';
 
 const pageHome = new Home();
 

@@ -1,12 +1,8 @@
-#Selenium + Node + webdriverio + phantomjs + mocha + chai + sinon
+### Node + Selenium + WebDriverIO + Phantomjs + Mocha + Chai + Sinon
 
--------------
-Author: Manh Pham <manhpt2@fsoft.com.vn>
+## Tech Stack
 
-
-##Tech Stack
--------------
-Nodejs (version 6^) <https://nodejs.org>
+Nodejs (v6^) <https://nodejs.org>
 
 Selenium-standalone <https://github.com/vvo/selenium-standalone>
 
@@ -21,36 +17,34 @@ Chai <https://chaijs.com>
 Sinon <https://sinonjs.org>
 
 
-##Installation
--------------
-```
-npm install
-```
-
-Or use `yarn`
+## Installation
 
 ```
-npm install -g yarn
 yarn install
 ```
 
+If you have not had `yarn`, please install it:
+
+```
+npm install -g yarn
+```
+
 ##Run Tests
--------------
-To run tests, run `npm run test`:
 
-```
-npm run test
-npm run test:firefox
-npm run test:chrome
-```
-
-Or with `yarn`:
+To run tests, run `yarn run test`:
 
 ```
 yarn run test
-yarn run test:firefox
 yarn run test:chrome
+yarn run test:firefox
+yarn run test:phantomjs
 ```
 
-**Note:** `npm test`, runs all test within the test directory and `phantomjs` is used by default.
-use `npm run help` to see webdriverio's testrunner commands.
+**Note:** `yarn test`, runs all test within the test directory and `chrome` is used by default.
+use `yarn run help` to see webdriverio's testrunner commands.
+
+## Author
+Manh Pham <manhhailua@gmail.com>
+
+## License
+MIT

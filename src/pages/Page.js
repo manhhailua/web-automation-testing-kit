@@ -3,7 +3,7 @@
  */
 
 import url from 'url';
-import { ORIGIN } from '../config';
+import { ORIGIN } from '../../test/config';
 
 /**
  * This component should always point to the root URL page
