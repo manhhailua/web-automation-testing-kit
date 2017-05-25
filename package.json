@@ -1,0 +1,57 @@
+{
+  "name": "web-automation-testing-kit",
+  "version": "1.0.0",
+  "description": "QA Automation Testing",
+  "author": "Manh Pham <manhpt2@fsoft.com.vn>",
+  "license": "MIT",
+  "homepage": "https://dtaap.visualstudio.com/DTA-CCP/_git/qa-automation-testing#README",
+  "repository": {
+    "type": "git",
+    "url": "https://dtaap.visualstudio.com/DTA-CCP/_git/qa-automation-testing"
+  },
+  "keywords": [
+    "webdriverio",
+    "phantomjs",
+    "selenium",
+    "mocha",
+    "chai",
+    "sinon"
+  ],
+  "scripts": {
+    "test": "yarn test:chrome",
+    "test:phantomjs": "BROWSER=phantomjs ./node_modules/.bin/wdio wdio.conf.js",
+    "test:chrome": "BROWSER=chrome ./node_modules/.bin/wdio wdio.conf.js",
+    "test:firefox": "BROWSER=firefox ./node_modules/.bin/wdio wdio.conf.js",
+    "help": "./node_modules/.bin/wdio --help"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "moment": "^2.18.1",
+    "phantom": "^4.0.3",
+    "selenium-standalone": "^6.4.1",
+    "sinon": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.11.6",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-webdriverio": "^1.0.1",
+    "wdio-firefox-profile-service": "^0.0.3",
+    "wdio-json-reporter": "^0.2.1",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.8.0"
+  }
+}
